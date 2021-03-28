@@ -5,7 +5,8 @@ import { LightningElement } from 'lwc';
 //xiomiA1.size =
 export default class HelloWorld extends LightningElement {
     // attribute/fields/properties and behaviour/function/methods
-    name="bhanu"
+    name="Gaurav" //chnage name agai
+    test="jkh"
     
     nameHandler(event){ 
         console.log(event.target.value)
